@@ -19,6 +19,7 @@ def maxScore(cardPoints, k):
       
     return total_points - min_subarray_sum
 
-cardPoints = [1, 2, 3, 4, 5, 6, 1]
-k = 3
-print(maxScore(cardPoints, k)) 
+if __name__ == "__main__":
+    cardpointa = list(map(int(input().split())))
+    k = int(input())
+    print(maxScore(cardPoints, k)) 
